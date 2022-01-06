@@ -23,7 +23,7 @@ body {
 .text-part h1 span {
     color: #ff5959;
 }
-.text-part a {
+a {
     text-decoration: none;
     background-color: #ff5959;
     color: white;
@@ -49,7 +49,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
 }
-.second-section h1 span {
+span {
     color: #ffad5a;
 }
 .three-part {
@@ -116,7 +116,7 @@ body {
 .third-sec-right h1 {
     font-size: 30px;
 }
-.third-sec-right a {
+a {
     text-decoration: none;
     background-color: #ff5959;
     color: white;
@@ -128,6 +128,7 @@ body {
 }
 .fourth-section {
     padding-left: 90px;
+    margin-bottom: 40px;
 }
 .four-sec-div {
     display: flex;
@@ -137,7 +138,7 @@ body {
     margin-right: 70px;
     padding-top: 40px;
 }
-.four-sec-left a {
+a {
     text-decoration: none;
     background-color: #ff5959;
     color: white;
@@ -154,4 +155,46 @@ body {
     height: 350 px;
     width: 350px;
     margin-left: 15px;
+}
+
+.sixth-section {}
+.sixth-section h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.six-sec-div {
+    display: flex;
+}
+.six-left {
+    width: 50%;
+}
+.six-left img {
+    height: 400px;
+    width: 300px;
+    padding-left: 150px;
+}
+.six-right {
+    width: 50%;
+    padding-right: 125px;
+    padding-top: 70px;
+}
+.sec-seven {
+    margin-left: 85px;
+    margin-right: 85px;
+}
+.sec-seven h2 {
+    text-align: center;
+    color: yellow;
+    padding-top: 25px;
+}
+.sec-seven p {
+    color: white;
+    text-align: center;
+    padding-top: -13px;
+}
+footer {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    
 }
