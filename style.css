@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+}
+.first-section {
+    display: flex;
+    padding-left: 80px;
+}
+.text-part {
+    width: 50%;
+    padding-top: 55px;
+    padding-left: -10px;
+    padding-left: 35px;
+    
+}
+h1 {
+    font-size: 45px;
+    border-left: 3px solid #ff5959;
+    height: 90px;
+    padding-top: -11px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+span {
+    color: #ffad5a;
+}
+a {
+    text-decoration: none;
+    background-color: #ff5959;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    font-weight: 700px;
+    letter-spacing: 1px;
+}
+.image-part {
+    width: 50%;
+}
+.image-part img {
+    width: 48%;
+    padding-left: 126px;
+    padding-top: -16px;
+}
