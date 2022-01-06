@@ -3,7 +3,7 @@ body {
 }
 .first-section {
     display: flex;
-    padding-left: 80px;
+    padding-left: 60px;
 }
 .text-part {
     width: 50%;
@@ -21,9 +21,9 @@ body {
     padding-left: 5px;
 }
 .text-part h1 span {
-    color: #ffad5a;
+    color: #ff5959;
 }
-a {
+.text-part a {
     text-decoration: none;
     background-color: #ff5959;
     color: white;
@@ -41,7 +41,9 @@ a {
     padding-left: 126px;
     padding-top: -16px;
 }
-.second-section {}
+.second-section {
+    margin-bottom: 60px;
+}
 .second-section h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -61,6 +63,7 @@ a {
     padding-left: 12px;
     margin: 0 auto;
     border-radius: 15px;
+    padding: 20px;
 }
 .left-part img {
     height: 130px;
@@ -72,6 +75,7 @@ a {
     padding-left: 12px;
     
     border-radius: 15px;
+    padding: 20px;
 }
 .middle-part img {
     height: 130px;
@@ -83,8 +87,71 @@ a {
     padding-left: 12px;
     margin: 0 auto;
     border-radius: 15px;
+    padding: 20px;
 }
 .right-part img {
     height: 130px;
     width: 130px;
+}
+.third-section {
+  margin-bottom: 50px;
+}
+.third-sec-div {
+    display: flex;
+}
+.third-sec-left {
+    width: 40%;
+    padding-left: 0;
+}
+.third-sec-left img {
+    height: 350px;
+    width: 390px;
+    padding-left: 90px;
+}
+
+.third-sec-right {
+    width: 60%;
+    padding-top: 30px;
+}
+.third-sec-right h1 {
+    font-size: 30px;
+}
+.third-sec-right a {
+    text-decoration: none;
+    background-color: #ff5959;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    font-weight: 700px;
+    letter-spacing: 1px;
+}
+.fourth-section {
+    padding-left: 90px;
+}
+.four-sec-div {
+    display: flex;
+}
+.four-sec-left {
+    width: 60%;
+    margin-right: 70px;
+    padding-top: 40px;
+}
+.four-sec-left a {
+    text-decoration: none;
+    background-color: #ff5959;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    font-weight: 700px;
+    letter-spacing: 1px;
+}
+.four-sec-right {
+    width: 40%;
+} 
+.four-sec-right img {
+    height: 350 px;
+    width: 350px;
+    margin-left: 15px;
 }
